@@ -23,3 +23,5 @@ class TestLogin(object):
         self.factory.loginpage().input_name(name)  # 账号
         self.factory.loginpage().input_pwd(pwd)  # 密码
         self.factory.loginpage().click_login_bar()  # 登录
+
+        print('打印信息')
